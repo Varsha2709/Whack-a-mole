@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Whack-a-Mole — Mini Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container" role="application" aria-label="Whack a Mole Game">
+    <header>
+      <h1>Whack-a-Mole</h1>
+      <div class="controls">
+        <div class="small">High score: <span id="highScore">0</span></div>
+        <button id="startBtn">Start</button>
+        <button class="btn ghost" id="resetBtn">Reset</button>
+      </div>
+    </header>
+
+    <div class="panel" aria-hidden="false">
+      <div class="stat">
+        <label>Score</label>
+        <div class="big" id="score">0</div>
+      </div>
+
+      <div class="stat">
+        <label>Time left</label>
+        <div class="big" id="time">30s</div>
+      </div>
+
+      <div class="stat">
+        <label>Difficulty</label>
+        <select id="difficulty" aria-label="Choose difficulty">
+          <option value="easy">Easy (slower)</option>
+          <option value="normal" selected>Normal</option>
+          <option value="hard">Hard (faster)</option>
+        </select>
+      </div>
+
+      <div class="stat">
+        <label>Sound</label>
+        <div class="center"><input type="checkbox" id="soundToggle" checked/> <span class="small">Enable</span></div>
+      </div>
+
+      <div style="flex:1"></div>
+
+      <div class="small" style="text-align:center">Tip: Tap or click the mole when it pops up. Mobile-friendly!</div>
+    </div>
+
+    <div class="board-wrap">
+      <div class="board" id="board" role="grid" aria-label="game board">
+        <!-- 9 holes -->
+        <div class="hole" data-index="0"><div class="mole" data-index="0">🐹</div></div>
+        <div class="hole" data-index="1"><div class="mole" data-index="1">🐹</div></div>
+        <div class="hole" data-index="2"><div class="mole" data-index="2">🐹</div></div>
+        <div class="hole" data-index="3"><div class="mole" data-index="3">🐹</div></div>
+        <div class="hole" data-index="4"><div class="mole" data-index="4">🐹</div></div>
+        <div class="hole" data-index="5"><div class="mole" data-index="5">🐹</div></div>
+        <div class="hole" data-index="6"><div class="mole" data-index="6">🐹</div></div>
+        <div class="hole" data-index="7"><div class="mole" data-index="7">🐹</div></div>
+        <div class="hole" data-index="8"><div class="mole" data-index="8">🐹</div></div>
+      </div>
+
+      <div class="footer">
+        <div class="small">Level: <strong id="level">1</strong></div>
+        <div class="small">Hits: <span id="hits">0</span></div>
+        <div class="small">Misses: <span id="misses">0</span></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="logics.js"></script>
+</body>
+</html>
