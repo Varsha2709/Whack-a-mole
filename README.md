@@ -26,11 +26,11 @@ A fun and interactive browser game built using **HTML5, CSS3, and JavaScript**. 
 
 1. Download or clone the repository
 2. Open `index.html` in any web browser
-3. Start playing!
+3. Start playing! 
 
 
 ## ✨ Future Improvements
 
 * Add more characters
 * Add custom themes
-* Add leaderboard or multiplayer mode
+* Add leaderboard or multiplayer mode and much more!!
