@@ -29,15 +29,6 @@ A fun and interactive browser game built using **HTML5, CSS3, and JavaScript**. 
 3. Start playing!
 
 
-
-## 📷 Screenshot
-```
-<img width="1287" height="726" alt="image" src="https://github.com/user-attachments/assets/c0f04408-b026-4522-bec6-ad0969f73fd0" />
-
-```
-
----
-
 ## ✨ Future Improvements
 
 * Add more characters
