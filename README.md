@@ -25,7 +25,7 @@ A fun and interactive browser game built using **HTML5, CSS3, and JavaScript**. 
 ## 📂 How to Run
 
 1. Download or clone the repository
-2. Open `index.html` in any web browser
+2. Open `whack-a-mole.html` in any web browser
 3. Start playing! 
 
 
