@@ -1,4 +1,4 @@
-# 🎮 Whack-a-Mole Game
+#  Whack-a-Mole Game
 
 A fun and interactive browser game built using **HTML5, CSS3, and JavaScript**. Tap or click the mole before it disappears to score points. The game includes difficulty levels, sound effects, score tracking, and a responsive design that works on all screen sizes.
 
